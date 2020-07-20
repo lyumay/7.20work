@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="window"></div>
+
+    <script src="animate.js"></script>
+    <!-- <script src="wheel.js"></script> -->
+    <script src="wheel copy.js"></script>
+    
+    <script>
+       new wheel(".window",{
+            imgs:["https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg","https://img.alicdn.com/imgextra/i2/64/O1CN01FacVpE1CLLxZvXEI7_!!64-0-luban.jpg_q100.jpg_.webp","https://img.alicdn.com/tps/TB1Lw9SLVXXXXajaXXXXXXXXXXX-1130-500.jpg",],
+            imgColor:["#e8e8e8","#0e9702","#4c2efe"],
+            links:["http://baidu.com","http://www.sxuek.com","http://www.tmall.com"],
+            imgSize:[1130,500],
+            // btnColor:"red",
+            // btnActive:"blue",
+            // btnPos:["center","10"]
+        },{
+            time:5,
+            // eachTime:2
+            runStyle:"linear"
+        })
+    </script>
+</body>
+</html>
